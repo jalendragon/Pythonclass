@@ -10,6 +10,7 @@ print(f"Copying from {from_file} to {to_file}")
 in_file = open(from_file)
 indata = in_file.read()
 
+
 print(f"Does the output file exist? {exists(to_file)}")
 print("Ready, hit RETURN to continue, CTRL-C to abort.")
 input()
